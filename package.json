@@ -1,0 +1,36 @@
+{
+  "name": "cookiebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@utils": "./utils",
+    "@events": "./events",
+    "@commands": "./commands",
+    "@buttons": "./buttons"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbungfro/cookiebot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbungfro/cookiebot/issues"
+  },
+  "homepage": "https://github.com/devbungfro/cookiebot#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.22"
+  }
+}
