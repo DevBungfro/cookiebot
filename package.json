@@ -12,7 +12,8 @@
     "@utils": "./utils",
     "@events": "./events",
     "@commands": "./commands",
-    "@buttons": "./buttons"
+    "@buttons": "./buttons",
+    "@modals": "./modals"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,10 @@
   },
   "homepage": "https://github.com/devbungfro/cookiebot#readme",
   "dependencies": {
+    "atlas.db": "^1.1.0",
     "chalk": "^4.1.2",
     "discord.js": "^14.8.0",
+    "discordjs-reaction-role": "^3.1.0",
     "dotenv": "^16.0.3",
     "module-alias": "^2.2.2",
     "moment": "^2.29.4",
