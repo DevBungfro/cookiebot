@@ -9,7 +9,7 @@ module.exports = {
         try {
             const user = interaction.user
             const ticketDB = client.database.tickets.ticket
-            if (ticketDB.list[user.id]) return interaction.reply({ content: 'You already have an open support ticket.', ephemeral: true })
+            if (ticketDB.list[user.id]) return interaction.reply({ content: 'You already have an open support or order ticket.', ephemeral: true })
             const channel = await interaction.guild.channels.create({
                 name: user.tag,
                 type: ChannelType.GuildText,

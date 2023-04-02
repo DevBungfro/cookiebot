@@ -2,5 +2,15 @@
     "ticket_channel_id": "1090834106331447336",
     "support_role_id": "1090836459784786051",
     "ticket_category_id": "1090837990030454864",
-    "services_channel_id": "1090833266057166870"
+    "services_channel_id": "1090833266057166870",
+    "order_categories": {
+        "Development": {
+            "roles": {
+                "FiveM Development": "1091033223607353485",
+                "Web Development": "1091033222613311488",
+                "Plugin Developer": "1091033224530116629",
+                "Bot Developer": "1091033225478021131"
+            }
+        }
+    }
 }

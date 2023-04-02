@@ -52,14 +52,14 @@ module.exports = {
                 const channel = interaction.channel
                 let userID = null
 
-                Object.keys(ticketDB.list).forEach(function (key) {
+                Object.keys(ticketDB.list).forEach(function (key, index) {
                     const info = ticketDB.list[key]
 
-                    if (info.channel == channel.id) userID = key;
+                    if (info.channel == channel.id) userID = key
                 });
 
                 if (userID) {
-                    delete ticketDB.list[userID]
+                    delete ticketDB.list[userID];
 
                     await channel.delete()
                     await ticketDB.save()
